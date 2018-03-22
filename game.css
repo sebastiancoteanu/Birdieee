@@ -1,0 +1,82 @@
+html, body {
+	width: 100%;
+	height: 100%;
+} 
+
+.game-container {
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-60%);
+	position: relative;
+	text-align: center;
+}
+
+#game-area {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ecf5ff;
+    position: relative;
+}
+
+.menu {
+	position: absolute;
+	top:0;
+	left:50%;
+	width:600px;
+	height: 300px;
+	padding: 2px;
+	background-color: #1ea0cc;
+	transform: translateX(-50%);
+}
+
+.menu .game-title {
+    font-family: 'Baloo Da', cursive;
+    color: #dcf3ff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.difficulty {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.difficulty label {
+	display: inline-block;
+	margin: 0 10px;
+	font-family: 'Baloo Da', cursive;
+    color: #dcf3ff;
+}
+
+.difficulty label input {
+	margin-top: 2px;
+}
+
+button {
+	background-color: #dcf3ff;
+    border: 2px solid #aae9ff;
+    padding: 3px 0px 0px 0px;
+    width: 107px;
+    color: #1ea0cc;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-family: 'Baloo Da', cursive;
+}
+
+.game-score {
+	display: none;
+	width: 1000px;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: right;
+    top: 0;
+    padding-right: 50px;
+    padding-top: 15px;
+    font-family: 'Baloo Chettan', cursive;
+    color: #838383;
+}
